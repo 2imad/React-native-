@@ -2,11 +2,11 @@ import React from "react";
 import { Text, StyleSheet, View } from "react-native";
 
 const ComponentsSceen = () => {
-    const name = 'Imad Youssoufi';
+const name = 'Imad Youssoufi';
   return (
     <View>
-      <Text style={styles.textStyle}> Getting started with React Native </Text>
-      <Text style={styles.subTextStyle}> My name is {name} </Text>
+       <Text style={styles.textStyle}> Getting started with React Native </Text>
+       <Text style={styles.subTextStyle}> My name is {name} </Text>
     </View>
   );
 };
