@@ -2,6 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet, FlatList } from "react-native";
 
 const ListScreen = () => {
+
     const friends = [
         { name: "Friend#1",age:"12" },
         { name: "Friend#2",age:"20" },
@@ -12,9 +13,8 @@ const ListScreen = () => {
         { name: "Friend#7",age:"32" },
         { name: "Friend#8",age:"12" },
         { name: "Friend#9",age:"29" },
-        { name: "Friend#10",age:"19" },
-        { name: "Friend#11",age:"36" }
-
+        { name: "Friend#10",age:"19"},
+        { name: "Friend#11",age:"36"}
     ];
     return (
         <FlatList
